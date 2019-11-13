@@ -20,6 +20,7 @@
 		"node": true
 	},
 	"rules": {
+		"react/prop-types": 0,
 		"react-hooks/rules-of-hooks": "error",
 		"react-hooks/exhaustive-deps": "warn",
 		"prefer-destructuring": [
@@ -40,6 +41,7 @@
 		"no-unexpected-multiline": "error",
 		"no-unreachable": "error",
 		"curly": "error",
+		"semi": "error",
 		"default-case": "error",
 		"no-param-reassign": "error",
 		"no-self-assign": "error",
@@ -63,7 +65,6 @@
 		"no-new-wrappers": "error",
 		"no-eval": "error",
 		"no-empty-function": "error",
-		"no-import-assign": "warn",
 		"no-use-before-define": "error"
 	},
 	"settings": {
